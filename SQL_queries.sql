@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS walmartSales;
 
 -- Create table
 CREATE TABLE IF NOT EXISTS sales(
-	invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
+    invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
     city VARCHAR(30) NOT NULL,
     customer_type VARCHAR(30) NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS sales(
 );
 
 -- Data cleaning
-SELECT
+SELECT 
 	*
 FROM sales;
 
