@@ -109,19 +109,6 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting](https://www
 10. Which day of the week has the best average ratings per branch?
 
 
-**Data given:**
-
-- $ \text{Unite Price} = 45.79 $
-- $ \text{Quantity} = 7 $
-
-$ COGS = 45.79 * 7 = 320.53 $
-
-$ \text{VAT} = 5\% * COGS\\= 5\%  320.53 = 16.0265 $
-
-$ total = VAT + COGS\\= 16.0265 + 320.53 = $336.5565$
-
-$ \text{Gross Margin Percentage} = \frac{\text{gross income}}{\text{total revenue}}\\=\frac{16.0265}{336.5565} = 0.047619\\\approx 4.7619\% $
-
 ## Code
 
 For the rest of the code, check the [SQL_queries.sqll](https://github.com/Rudra-Patel-2906/WalmartSalesAnalysis/blob/main/SQL_queries.sql) file
