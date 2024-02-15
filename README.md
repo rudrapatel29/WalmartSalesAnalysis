@@ -109,24 +109,6 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting](https://www
 10. Which day of the week has the best average ratings per branch?
 
 
-## Revenue And Profit Calculations
-
-$ COGS = unitsPrice * quantity $
-
-$ VAT = 5\% * COGS $
-
-$VAT$ is added to the $COGS$ and this is what is billed to the customer.
-
-$ total(gross_sales) = VAT + COGS $
-
-$ grossProfit(grossIncome) = total(gross_sales) - COGS $
-
-**Gross Margin** is gross profit expressed in percentage of the total(gross profit/revenue)
-
-$ \text{Gross Margin} = \frac{\text{gross income}}{\text{total revenue}} $
-
-<u>**Example with the first row in our DB:**</u>
-
 **Data given:**
 
 - $ \text{Unite Price} = 45.79 $
