@@ -1,9 +1,9 @@
 -- Create database
-CREATE DATABASE IF NOT EXISTS walmartSales;
+CREATE DATABASE walmartSales;
 
 
 -- Create table
-CREATE TABLE IF NOT EXISTS sales(
+CREATE TABLE sales(
     invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
     city VARCHAR(30) NOT NULL,
